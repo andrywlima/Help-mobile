@@ -1,9 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+:target {
+    scroll-margin-top: .8em;
+  }
 #logo {
     text-align: center;
+    
+    
 }
 
 .img {
     max-width: 30%;
+   
 }
 
 .title {
@@ -11,7 +20,6 @@
     background-color: #CECECE;
     padding: 0.008%;
     box-shadow: 0px 5px black;
-
 }
 
 .titleText {
@@ -19,16 +27,38 @@
     font-weight: bold;
     font-size: 14pt;
     text-align: center;
-
 }
 
 .textBold {
     font-family: sans-serif;
     font-weight: bold;
-
-
 }
 
 .alert {
     color: #ff0000;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .navbar a {
+    font-family: sans-serif;
+    font-weight: bold;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #CECECE;
+  }
+  
+ 
