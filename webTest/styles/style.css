@@ -11,10 +11,12 @@ html{
     
     
 }
-
 .img {
     max-width: 30%;
-   
+}
+.imgDesc{
+    width: 90vmin;
+    height: 75vmin;
 }
 
 .title {
