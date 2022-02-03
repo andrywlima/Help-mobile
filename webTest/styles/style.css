@@ -81,3 +81,8 @@ iframe {
     margin: auto;
     width: 100%;
 }
+
+a {
+    text-decoration: underline;
+    color: #0357b6;
+}
